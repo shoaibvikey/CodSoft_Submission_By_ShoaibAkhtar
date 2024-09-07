@@ -1,0 +1,132 @@
+/* Global Styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header .logo h1 {
+    color: #fff;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #f04;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://via.placeholder.com/1920x800');
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.cta-buttons a {
+    display: inline-block;
+    background-color: #f04;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* Services Section */
+.services {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.services .container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services .service {
+    width: 30%;
+    text-align: center;
+}
+
+.services h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.services p {
+    color: #555;
+}
+
+/* About Us Section */
+.about {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    color: #555;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.about a {
+    display: inline-block;
+    background-color: #f04;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
